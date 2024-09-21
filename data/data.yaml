@@ -1,0 +1,12 @@
+train: ./train/images
+val: ./valid/images
+
+nc: 2
+names: ['burglary', 'thief']
+
+roboflow:
+  workspace: amomly-detection-project
+  project: burglary-p1t8b
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amomly-detection-project/burglary-p1t8b/dataset/1
